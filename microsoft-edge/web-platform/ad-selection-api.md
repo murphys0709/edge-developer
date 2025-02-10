@@ -51,6 +51,9 @@ The **Ad Selection API** flag enables the Ad Selection API and associated featur
 * Shared Storage.<!--an api-->
 * Private Aggregation.<!--an api-->
 
+In order to use the APIs the origin will need to be attested with Microsoft Edge.
+Developers insterest in testing these APIs can override the attestation requirement locally by setting the edge://flags/#edge-ad-selection-enrollment-overrides flag with on or more comma separated origins such as:
+https://contoso-adtech1.com,https://contoso-adtech2.com
 
 <!-- ------------------------------ -->
 #### Sign-up and attestation requirements and process
